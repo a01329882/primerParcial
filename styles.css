@@ -51,6 +51,11 @@ button:hover{
     flex-wrap: wrap;
     gap: 35px 20px;
     text-align: center;
-    justify-content: center;
+    justify-content: left;
 }
+
+.main-content-container{
+    display: flex;
+}
+
 
