@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Contact</title>
+<center>
+<h1>Contact</h1>
+</center>
+</head>
+<body text = "Green" bgcolor = "#ecdaf7">
+Is there anything you'd like to know about the website?<br>
+<br>
+Surname:<br>
+<input type="text" id="name">
+<br>
+Family Name: <br>
+<input type="text" id="lname">
+<br>
+E-mail:<br>
+<input type="text" id="mail">
+<br>
+Phone:<br>
+<input type="text" id="phone">
+<br>
+Let us know!<br>
+<input type="text" id="feed">
+<br>
+<button onclick= "alert('We will get in contact with you');
+                  document.getElementById('name').value = ''; 
+                  document.getElementById('lname').value = '';
+                  document.getElementById('mail').value = '';
+                  document.getElementById('phone').value = '';
+                  document.getElementById('feed').value = '';
+                  ">
+      Send us your feedback!
+</button>
+<center>
+<button onclick='location.href="./index.html"'>
+Home
+</button>
+</center>
+</body>
+</html>
