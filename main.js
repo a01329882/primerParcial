@@ -1,6 +1,5 @@
 const api = 'https://rickandmortyapi.com/api/character';
 const contentContainer = document.getElementById("content-container");
-contentContainer.innerHTML = "<h1>Holas</h1>";
 let result;
 
 consumirAPI();
@@ -21,8 +20,5 @@ async function consumirAPI(){
 function displayInfo(num){
         console.log(num);
         const infoContainer = document.getElementById("info-container");
-        infoContainer.innerHTML = result.results[num].status;
-
-        
+        infoContainer.innerHTML = result.results[num].status;     
 }
-//<img src="" alt="">
