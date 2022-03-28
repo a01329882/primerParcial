@@ -20,6 +20,10 @@ async function consumirAPI(){
 
 function displayInfo(num){
         console.log(num);
+ 
+        const infoContainer = document.getElementById("info-container");
+        infoContainer.innerHTML = result.results[num].status;     
+
         console.log("elem" + num);
         const elem = document.getElementById("elem" + num);
         const status = result.results[num].status;
@@ -33,5 +37,5 @@ function displayInfo(num){
         }else{
                 elem.innerHTML='';
         } 
+hotfixes <<<<<<< ======= >>>>>>> release
 }
-//<img src="" alt="">
