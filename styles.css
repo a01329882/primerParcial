@@ -51,11 +51,15 @@ button:hover{
     flex-wrap: wrap;
     gap: 35px 20px;
     text-align: center;
-    justify-content: left;
+    justify-content: center;
 }
 
-.main-content-container{
-    display: flex;
+#content-container h4{
+    margin: 3px 0 0 0;
+    color: green;
 }
 
+#content-container h3:hover {
+    color: blueviolet;
+}
 
